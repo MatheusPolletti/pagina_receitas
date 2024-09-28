@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+body
+{    
+    background-color: #F3E5D8;
+    
+    font-family: 'Young Serif', sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container
+{
+    background-color: #FFFFFD;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+.imagem_omelete
+{
+    width: 100%;
+}
+
+.conteudo > h1
+{
+    margin-left: 5%;
+}
+
+.conteudo > p
+{
+    font-family: "Heebo", sans-serif;
+
+    max-width: 95%;
+
+    margin-left: 5%;
+}
+
+.conteudo > .preparation
+{
+    font-family: 'Heboo', sans-serif;
+    
+    background-color: #FFF7FC;
+
+    max-width: 95%;
+}
+
+.conteudo > .preparation > h1
+{
+    padding: 20px 0px 0px 20px;
+    
+    font-size: 1.5em;
+
+    color: #5E2C43;
+}
+
+.conteudo > .preparation > ul
+{
+    line-height: 2;
+}
+
+.conteudo > .ingredients
+{
+    font-family: 'Heboo', sans-serif;
+
+    margin-left: 5%;
+
+    max-width: 95%;
+}
+
+.conteudo > .ingredients > h1
+{
+    color: #8A4731;
+}
+
+.conteudo > .ingredients > ul
+{
+    line-height: 2;
+}
+
+.conteudo > .instructions
+{
+    font-family: 'Heboo', sans-serif;
+
+    border-top: 2.2px solid #F2F2F2;
+    border-bottom: 2.2px solid #F2F2F2;
+    
+    max-width: 90%;
+}
+
+.conteudo > .instructions > h1
+{
+    color: #874430;
+
+    margin-left: 5%;
+}
+
+.conteudo > .instructions > ol li::marker
+{
+    color: #874430;
+}
+
+.conteudo > .instructions > ol li
+{
+    margin-bottom: 15px;
+}
+
+.conteudo > .nutrition
+{
+    font-family: 'Heboo', sans-serif;
+
+    margin-bottom: 40px;
+}
+
+.conteudo > .nutrition > h1
+{
+    color: #874430;
+
+    margin-left: 5%;
+}
+
+.conteudo > .nutrition > p
+{
+    line-height: 2;
+
+    margin-left: 5%;
+}
+
+.conteudo > .nutrition > .item {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 30px;
+
+    border-bottom: 1px solid #F0F0F0; 
+}
+
+.conteudo > .nutrition > .item > .gasto {
+    color: #8E645C;
+
+    padding-right: 40%;
+}
+
+@media (min-width: 768px)
+{
+    .container
+    {
+        width: 75%;
+        margin-top: 6%;
+    }
+
+    .conteudo
+    {
+        margin-left: 5%;
+    }
+
+    .conteudo > h1
+    {
+        margin-left: 0px;
+    }
+
+    .conteudo > p
+    {
+        margin-left: 0px;
+    }
+    
+    .conteudo > .ingredients
+    {
+        margin-left: 0%;
+    }
+
+    .conteudo > .instructions > h1
+    {
+        margin-left: 0%;
+    }
+
+    .conteudo > .nutrition
+    {
+        font-family: 'Heboo', sans-serif;
+        margin-bottom: 40px;
+    }
+
+    .conteudo > .nutrition > h1
+    {
+        margin-left: 0%;
+    }
+
+    .conteudo > .nutrition > p
+    {
+        margin-left: 0%;
+    }
+
+    .conteudo > .nutrition > .item {
+        padding-left: 30px;
+
+        border-bottom: 1px solid #F0F0F0; 
+    }
+
+    .conteudo > .nutrition > .item > .gasto {
+        color: #8E645C;
+
+        padding-right: 40%;
+    }
+}
+
+@media (min-width: 1024px)
+{
+    .container
+    {
+        width: 50%;
+        margin-top: 6%;
+        border-radius: 25px;
+    }
+
+    .imagem_omelete
+    {
+        width: 92%;
+
+        border-radius: 25px;
+
+        margin: 4% 0px 0px 4%;
+    }
+
+    .conteudo
+    {
+        margin-left: 5%;
+    }
+}
